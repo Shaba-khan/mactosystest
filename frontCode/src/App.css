@@ -1,0 +1,36 @@
+.notification-message .message{
+  background: transparent!important;
+}
+
+.react-responsive-modal-modal{
+  max-width: 600px!important;
+  min-width: 400px!important;
+
+}
+
+.shadow{
+     background: white;
+    padding: 5%;
+    box-shadow: 0 7px 7px rgb(0 0 0 / 55%);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 8px;
+}
+body{
+  background: #80808014;
+      height: 50rem;
+}
+h4{
+  font-size: 30px;
+    color: #087af9;
+}
+.pd{
+  padding: 2%;
+}
+h5{
+  font-size: 20px;
+    color: #087af9;
+}
+img{
+  border-radius: 50%;
+
+}
