@@ -24,7 +24,7 @@ class Product extends React.Component {
           userAllHtml:'',
           alluser:'',
           useName:'',
-          imageBaseurl:'http://localhost/taskaplite/assets/img/'
+          imageBaseurl:'http://localhost/api/assets/img/'
         };
 
         this.handleChange = this.handleChange.bind(this);
