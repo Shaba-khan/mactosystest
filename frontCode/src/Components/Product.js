@@ -174,7 +174,7 @@ class Product extends React.Component {
               
                html.push(
                    <tr key={data.id}>
-                    <td><div><img src={this.state.imageBaseurl+data.product_image} width="50" height="50"/></div></td>
+                    <td><div><img className="productimg" src={this.state.imageBaseurl+data.product_image} width="50" height="50"/></div></td>
                     <td>{data.product_name}</td>
                     <td>{data.product_description}</td>
                     <td>{data.username}</td>
